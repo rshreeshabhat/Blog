@@ -16,7 +16,7 @@ const Header = () => {
     <div className="container mx-auto px-10 mb-8">
       <div className="border-b w-full inline-block border-blue-400 py-8">
         <div className="md:float-left block">
-        <Link href="/">
+          <Link href="/">
             <img src="../logo.png" alt="logo" width="69px" className='mx-auto rounded-lg cursor-pointer opacity-100' />
           </Link>
         </div>
