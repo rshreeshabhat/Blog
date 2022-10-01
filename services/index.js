@@ -1,4 +1,6 @@
 import { request, gql } from 'graphql-request';
+import DOMPurify from 'dompurify';
+
 
 const graphqlAPI = process.env.NEXT_PUBLIC_GRAPHCMS_ENDPOINT;
 
@@ -253,4 +255,10 @@ export const getRecentPosts = async () => {
   const result = await request(graphqlAPI, query);
 
   return result.posts;
+};
+
+
+
+export const sanitize = ( content ) => {
+	return process.browser ? DOMPurify.sanitize( content ) : content;
 };
