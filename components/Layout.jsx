@@ -6,7 +6,7 @@ const Layout = ({ children }) => (
   <>
     <Header />
     {children}
-    <div className="flex flex-col">
+    <div className=" flex flex-col ">
       <NewsletterSubscribe />
     </div>
   </>

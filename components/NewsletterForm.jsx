@@ -62,7 +62,7 @@ const NewsletterForm = ( { status, message, onValidated }) => {
   }
 
   return (
-    <div className='flex flex-col bg-indigo-400 pt-5 pb-4 rounded-xl mx-56 mb-4'>
+    <div className='flex flex-col bg-blue-100 pt-5 pb-4 rounded-xl mx-14 mb-4'>
       <h3 className="mb-1 uppercase font-bold text-center">Subscribe to newsletter</h3>
       <div className=" text-center content-center ">
         <div className="mc-field-group items-center content-center justify-center pb-2">
@@ -70,7 +70,7 @@ const NewsletterForm = ( { status, message, onValidated }) => {
             onChange={(event) => setEmail(event?.target?.value ?? '')}
             type="email"
             placeholder="Your email"
-            className=" mx-auto w-1/2 content-center appearance-none rounded-r rounded-l sm:rounded-l-none border border-gray-400 border-b block pl-4 pr-6 py-2 bg-white text-sm placeholder-gray-400 text-gray-700 focus:bg-white focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none"
+            className=" mx-auto w-1/2 md:w-2/3 sm:w-3/4 content-center appearance-none rounded-r rounded-l sm:rounded-l-none border border-gray-400 border-b block pl-4 pr-6 py-2 bg-white text-sm placeholder-gray-400 text-gray-700 focus:bg-white focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none"
             onKeyUp={(event) => handleInputKeyEvent(event)}
           />
         </div>
