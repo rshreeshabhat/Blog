@@ -9,6 +9,8 @@ The project will be live on the localhost:3000
 
 ##### You can check out the live version of the blog on [https://blog-rshreeshabhat.vercel.app/](https://blog-rshreeshabhat.vercel.app/)
 
-![1](https://user-images.githubusercontent.com/65221970/194095736-bb4169ec-41e7-4687-b90e-177907c29b1e.png)
-
-![7](https://user-images.githubusercontent.com/65221970/194095809-0e9dadb6-4ccb-4874-9860-414b56bb1271.png)
+![10](https://user-images.githubusercontent.com/65221970/194097407-a1bd19d1-d0ab-41c5-92a1-3256c5b149fe.png)
+![13](https://user-images.githubusercontent.com/65221970/194097433-37780940-7632-4cd9-b426-74ce10ee7e0a.png)
+![12](https://user-images.githubusercontent.com/65221970/194097478-dc1d6845-7af5-46cb-bb1e-a29cb018dc7d.png)
+![11](https://user-images.githubusercontent.com/65221970/194097511-b9fa5a6d-b8b3-472e-8ecd-b6ba11969065.png)
+![9](https://user-images.githubusercontent.com/65221970/194097528-b24dfe72-cd7c-4506-992f-1a2b747483ef.png)
